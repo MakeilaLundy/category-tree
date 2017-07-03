@@ -22,6 +22,7 @@
         }
     ],
     "require": {
+        "craftcms/cms": "~3.0.0-beta.20"
     },
     "autoload": {
         "psr-4": {
@@ -30,7 +31,7 @@
     },
     "extra": {
         "name": "Category Tree",
-        "handle": "categoryTree",
+        "handle": "category-tree",
         "schemaVersion": "1",
         "changelogUrl": "https://raw.githubusercontent.com/dalewpdevph/category-tree/master/CHANGELOG.md",
         "class": "dalewpdevph\\categoryTree\\CategoryTree"

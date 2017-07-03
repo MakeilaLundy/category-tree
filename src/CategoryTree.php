@@ -50,7 +50,7 @@ class CategoryTree extends Plugin
 	 */
 	public static function t($message, array $params = [])
 	{
-		return Craft::t('categorytree', $message, $params);
+		return Craft::t('category-tree', $message, $params);
 	}
 
 	/**
